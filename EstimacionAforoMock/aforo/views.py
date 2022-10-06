@@ -35,4 +35,4 @@ def list(request):
 
 @api_view(["GET"])
 def get(request, id_rest):
-    return Response({"aforo": aforos_rest[id_rest]})
+    return Response({"Aforo": aforos_rest[id_rest]})
